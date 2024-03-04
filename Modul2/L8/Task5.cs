@@ -10,8 +10,10 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task5()
         {
-            
-            
+            for (int i = 1; i <= 20; i++)
+            {
+                Console.WriteLine($"Liczba {i} do potęgi 3 wynosi: {Math.Pow(i, 3)}");
+            }
         }
     }
 }
