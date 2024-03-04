@@ -11,7 +11,7 @@ namespace SzkolaDotNeta.Modul2.L8
         public static void Task1()
         {
             int counter;
-            int primeNumbersCounter = 0; ;
+            int primeNumbersCounter = 0;
 
             for (int i = 2; i <= 100; i++)
             {

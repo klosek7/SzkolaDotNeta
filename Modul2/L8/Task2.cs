@@ -10,8 +10,18 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task2()
         {
-            
-            
+            int a = 0;
+
+            do
+            {
+                a++;
+
+                if (a % 2 == 0)
+                {
+                    Console.Write("{0} ", a);
+                }                
+            } 
+            while (a < 1000);           
         }
     }
 }
