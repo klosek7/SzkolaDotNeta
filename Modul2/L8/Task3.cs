@@ -10,8 +10,18 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task3()
         {
-            
-            
+
+            Console.Write("Który wyraz ciągu Fibonacciego chcesz sprawdzić? Podaj cyfrę: ");
+            int.TryParse(Console.ReadLine(), out int number);
+            int a = 0;
+            int b = 1;
+
+            for (int i = 0; i < number; i++) 
+            {
+                b = a + b;
+                a = b - a;
+            }
+            Console.WriteLine(a);
         }
     }
 }
