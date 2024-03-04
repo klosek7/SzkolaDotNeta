@@ -1,6 +1,7 @@
 ﻿using System;
 using SzkolaDotNeta.Modul2.L4;
 using SzkolaDotNeta.Modul2.L7;
+using SzkolaDotNeta.Modul2.L8;
 
 namespace SzkolaDotNeta
 {
@@ -12,7 +13,7 @@ namespace SzkolaDotNeta
             int choiceLesson;
             int choiceTask;
 
-            Console.WriteLine("Które zadania chcesz sprawdzić: \r 1. Moduł 2 - Lekcja 4 \r 2. Moduł 2 - Lekcja 7");
+            Console.WriteLine("Które zadania chcesz sprawdzić: \r\n1. Moduł 2 - Lekcja 4 - Typy\r\n2. Moduł 2 - Lekcja 7 - Warunki\r\n3. Moduł 2 - Lekcja 8 - Pętle");
             int.TryParse(Console.ReadLine(), out choiceLesson);
 
             switch(choiceLesson)
@@ -95,7 +96,48 @@ namespace SzkolaDotNeta
                     }                                    
                     break;
 
-                    default:
+                case 3:
+                    Console.Write("Wybrałeś Moduł 2 - Lekcje 8. Teraz wybierz konkretne zadanie: ");
+                    int.TryParse(Console.ReadLine(), out choiceTask);
+                    switch (choiceTask)
+                    {
+                        case 1:
+                            Console.WriteLine($"Task 1: "); Task2_8_1.Task1();
+                            break;
+                        case 2:
+                            Console.WriteLine($"Task 2: "); Task2_8_2.Task2();
+                            break;
+                        case 3:
+                            Console.WriteLine($"Task 3: "); Task2_8_3.Task3();
+                            break;
+                        case 4:
+                            Console.WriteLine($"Task 4: "); Task2_8_4.Task4();
+                            break;
+                        case 5:
+                            Console.WriteLine($"Task 5: "); Task2_8_5.Task5();
+                            break;
+                        case 6:
+                            Console.WriteLine($"Task 6: "); Task2_8_6.Task6();
+                            break;
+                        case 7:
+                            Console.WriteLine($"Task 7: "); Task2_8_7.Task7();
+                            break;
+                        case 8:
+                            Console.WriteLine($"Task 8: "); Task2_8_8.Task8();
+                            break;
+                        case 9:
+                            Console.WriteLine($"Task 9: "); Task2_8_9.Task9();
+                            break;
+                        case 10:
+                            Console.WriteLine($"Task 10: "); Task2_8_10.Task10();
+                            break;                        
+                        default:
+                            Console.WriteLine("Zły wybór");
+                            break;
+                    }
+                    break;
+
+                default:
                     Console.WriteLine("Zły wybór");
                     break;
             }
