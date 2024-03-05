@@ -11,6 +11,12 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task8()
         {
+            /*Napisz program, który odwróci wprowadzony przez użytkownika ciąg znaków. Np.
+            Testowe dane:
+            Abcdefg
+            Rezultat
+            Gfedcba*/
+
             Console.Write("Wprowadź ciąg znaków: ");
             string input = Console.ReadLine();
 

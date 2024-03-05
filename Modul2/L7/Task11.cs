@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task11()
         {
+            //Napisz program, który zmieni ocenę ucznia na jej opis
+
+
             Console.Write("Wprowadź ocenę w postaci liczbowej: ");
             int.TryParse(Console.ReadLine(), out int grade);
 

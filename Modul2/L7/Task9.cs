@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task9()
         {
+            //Napisz program, który odczyta temperaturę I zwróci nazwę jak w poniższych kryteriach
+
+
             Console.WriteLine("Wprowadź temepraturę: ");
             int.TryParse(Console.ReadLine(), out int temperature);
 

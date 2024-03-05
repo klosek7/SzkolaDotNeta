@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task3()
         {
+            // Napisz program w C#, który sprawdzi czy podana przez użytkownika liczba jest dodatnia czy ujemna.
+
+
             Console.WriteLine("Podaj liczbę: ");
             int.TryParse(Console.ReadLine(), out int number);
 

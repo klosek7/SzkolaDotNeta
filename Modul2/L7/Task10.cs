@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task10()
         {
+            //Napisz program, który sprawdzi, czy z 3 podanych długości można stworzyć trójkąt
+
+
             Console.WriteLine("Wprowadź trzy liczby. Sprawdzimy czy można z nich zbudować trójkąt");
             Console.Write("Wprowadź pierwszą liczbę: ");
             int.TryParse(Console.ReadLine(), out int firstNumber);

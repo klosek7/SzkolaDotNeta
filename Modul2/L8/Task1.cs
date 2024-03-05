@@ -10,6 +10,8 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task1()
         {
+            //Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 – 100
+
             int counter;
             int primeNumbersCounter = 0;
 

@@ -10,6 +10,10 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task5()
         {
+            //Napisz program w C#, który sprawdzi czy podany przez użytkownika wiek 
+            //uprawnia go do ubiegania się o stanowisko posła, premiera, sentarora, prezydenta.
+
+
             Console.WriteLine("Podaj swój wiek: ");
             int.TryParse(Console.ReadLine(), out int age);
 

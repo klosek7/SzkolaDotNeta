@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task6()
         {
+            //Napisz program w C#, który pobierze wzrost użytkownika i przypisze mu wymyśloną kategorię wzrostu.
+
+
             Console.WriteLine("Podaj swój wzrost: ");
             int.TryParse(Console.ReadLine(), out int growth);
 

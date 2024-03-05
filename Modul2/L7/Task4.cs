@@ -10,6 +10,8 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task4()
         {
+            //Napisz program w C#, który sprawdzi czy podany przez użytkownika rok jest rokiem przestępnym.
+
             Console.WriteLine("Podaj rok: ");
             int.TryParse(Console.ReadLine(), out int year);
 

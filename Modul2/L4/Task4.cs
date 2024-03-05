@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L4
     {
         public static string Task4()
         {
+            //Napisz program w którym stworzysz 2 zmienne liczbowe, oraz jedną tekstową, a następnie przypiszesz im następujące wartości
+
+
             int a;
             string b;
             float c;

@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L4
     {
         public static string Task1()
         {
+            //Stwórz program, w którym zadeklarujesz zmienne dotyczące danych pracownika firmy
+
+
             string imie = "Jan";
             string nazwisko = "Kowalski";
             int wiek = 23;

@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task7()
         {
+            //Napisz program w C#, który pobierze 3 liczby od użytkownika i sprawdzi, która jest największa
+
+
             Console.WriteLine("Podaj trzy liczby. Sprawdzimy, która z nich jest największa: ");
             int.TryParse(Console.ReadLine(), out int firstNumber);
             int.TryParse(Console.ReadLine(), out int secondNumber);

@@ -10,6 +10,11 @@ namespace SzkolaDotNeta.Modul2.L4
     {
         public static void Task5()
         {
+            /*Napisz program w którym poprosisz użytkownika o jego dane personalne tj. Imię, nazwisko, 
+            numer telefonu, adres email, wzrost, waga (np. 85,7), itp (postaraj się wymyślić jak najwięcej) 
+            i spróbuj przekonwertować odpowiedź do odpowiedniego typu danych używając metody: 
+            typDanych.Parse(odpowiedźOdUżytkownika).*/
+
             string firstName;
             string lastName;
             int age;

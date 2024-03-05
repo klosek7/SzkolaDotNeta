@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task12()
         {
+            //Napisz program, który pobierze numer dnia tygodnia i wyświetli jego nazwę
+
+
             Console.Write("Wprowadź dzień tygodnia w postaci liczbowej: ");
             int.TryParse(Console.ReadLine(), out int day);
 

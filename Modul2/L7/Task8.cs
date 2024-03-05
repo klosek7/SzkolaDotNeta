@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task8()
         {
+            //Napisz program, który sprawdzi, czy kandydat może ubiegać się o miejsce na studiach
+
+
             Console.WriteLine("Wprowadź swoje wyniki z matury. Sprawdzimy czy będziesz mógł dostać się na studia.");
             Console.Write("Liczba punktów z matematyki: ");
             int.TryParse(Console.ReadLine(), out int resultMathematics);

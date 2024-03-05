@@ -10,6 +10,8 @@ namespace SzkolaDotNeta.Modul2.L7
     {
         public static void Task13()
         {
+            //Napisz program, który będzie posiadał proste menu (wg. Wzoru poniżej) I będzie prostym kalkulatorem
+
             bool exit = false;
 
             while (exit == false)

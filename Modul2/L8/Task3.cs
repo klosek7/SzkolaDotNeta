@@ -10,6 +10,8 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task3()
         {
+            //Napisz program, który zaimplementuje ciąg Fibonacciego i wyświetli go na ekranie.
+
 
             Console.Write("Który wyraz ciągu Fibonacciego chcesz sprawdzić? Podaj cyfrę: ");
             int.TryParse(Console.ReadLine(), out int number);

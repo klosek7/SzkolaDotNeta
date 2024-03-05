@@ -10,6 +10,8 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task2()
         {
+            //Napisz program, w którym za pomocą pętli do…while znajdziesz wszystkie liczby parzyste z zakresu 0 – 1000
+            
             int a = 0;
 
             do

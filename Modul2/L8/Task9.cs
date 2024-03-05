@@ -10,6 +10,9 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task9()
         {
+            //Napisz program, który zamieni liczbę dziesiętną na liczbę binarną
+
+
             Console.Write("Wprowadź liczbę całkowitą: ");
             int.TryParse(Console.ReadLine(), out int number);
 
