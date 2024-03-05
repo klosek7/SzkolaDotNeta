@@ -138,7 +138,7 @@ namespace SzkolaDotNeta
                     break;
 
                 default:
-                    Console.WriteLine("Zły wybór");
+                    Console.WriteLine("Zły wybór");                    
                     break;
             }
             
