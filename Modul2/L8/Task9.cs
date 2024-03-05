@@ -10,8 +10,16 @@ namespace SzkolaDotNeta.Modul2.L8
     {
         public static void Task9()
         {
-            
-            
+            Console.Write("Wprowadź liczbę całkowitą: ");
+            int.TryParse(Console.ReadLine(), out int number);
+
+            string result = string.Empty;
+            for (int i = 0; number > 0; i++)
+            {
+                result = number % 2 + result;
+                number = number / 2;
+            }
+            Console.WriteLine($"Postać binarna liczby {number} to: {result}");
         }
     }
 }
