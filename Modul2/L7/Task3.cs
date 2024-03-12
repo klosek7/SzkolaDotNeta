@@ -20,9 +20,13 @@ namespace SzkolaDotNeta.Modul2.L7
             {
                 Console.WriteLine("Podana liczba jest liczbą dodatnią");
             }
-            else
+            else if (number < 0)
             {
                 Console.WriteLine("Podana liczba jest liczbą ujemną");
+            }
+            else
+            {
+                Console.WriteLine("Podałeś liczbę 0. Zero nie jest ani dodatnie, ani ujemne");
             }
         }  
     }

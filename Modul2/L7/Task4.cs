@@ -15,7 +15,7 @@ namespace SzkolaDotNeta.Modul2.L7
             Console.WriteLine("Podaj rok: ");
             int.TryParse(Console.ReadLine(), out int year);
 
-            if (year % 4 == 0)
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
             {
                 Console.WriteLine("Podany rok jest rokiem przestępnym");
             }
@@ -26,3 +26,5 @@ namespace SzkolaDotNeta.Modul2.L7
         }  
     }
 }
+
+
